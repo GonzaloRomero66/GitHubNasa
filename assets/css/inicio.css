@@ -21,6 +21,7 @@ body {
     color: wheat;
     font-family: cursive;
     margin-top: -5px;
+    display: inline-block;
 }
 .Titulo:hover {
     color: rgba(122, 60, 16, 0.836);
@@ -30,7 +31,9 @@ ul {
     display: flex;
     gap: 20px;
     list-style-type: none;
+    
 }
+
 a {
     color: wheat;
     display: flex;
@@ -50,16 +53,28 @@ a:hover {
 }
 p {
     font-family: cursive;
+    text-align: center;
+    font-size: 20px;
 }
 h2 {
     font-family: cursive;
+    text-align: center;
+    
 } 
 .Menu {
     display: flex;
     gap: 35px;
+    justify-content: center;
 } .productos {
     text-align: center;
     display: flex;
-    gap: 430px;
+    gap: 540px;
     font-family: cursive;
+  display: inline-block;
+  width: 49%;
+} 
+footer {
+    text-align: center;
+    color: wheat;
 }
+
