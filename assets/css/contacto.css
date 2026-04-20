@@ -35,6 +35,10 @@ flex-wrap: wrap;
 
 footer {
     text-align: center;
+    background-color: #3e2c23;
+    color: #f5f1ea;
+    padding: 20px;
+    margin-top: 30px;
 }
 
 .padre-cafes-comida {
@@ -100,4 +104,30 @@ nav a {
     color: #f5f1ea;
     text-decoration: none;
     font-weight: bold;
+}
+
+iframe {
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+select, input {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a3e2b;
 }
