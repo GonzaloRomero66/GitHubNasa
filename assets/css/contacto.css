@@ -1,11 +1,11 @@
-#infolocal {
+#infolocal, #pedidohacer {
     text-align: center;
 }
 
 .prueba {
   display: flex;
 justify-content: center;
-gap: 90px;
+gap: 50px;
 flex-wrap: wrap;
 }
 
@@ -22,6 +22,14 @@ flex-wrap: wrap;
 }
 
 .cartita:hover {
+    transform: translateY(-5px);
+}
+
+.comidas:hover {
+    transform: translateY(-5px);
+}
+
+.cafes:hover {
     transform: translateY(-5px);
 }
 
@@ -66,4 +74,30 @@ gap: 20px;
     height: 200px;
     flex-shrink: 0;
    padding-left: 450px;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f1ea;
+    color: #3e2c23;
+    margin: 0;
+}
+
+header {
+    background-color: #3e2c23;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: #f5f1ea;
+    text-decoration: none;
+    font-weight: bold;
 }
