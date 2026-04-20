@@ -11,10 +11,17 @@ flex-wrap: wrap;
 
 .cartita {
     background-color: beige;
-    padding: 50px;
+    padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 5px;
     max-width: auto;
     text-align: center;
+    flex: 1;
+    min-width: 250px;
     
+    
+}
+
+.cartita:hover {
+    transform: translateY(-5px);
 }
