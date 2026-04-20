@@ -18,11 +18,13 @@ body {
   z-index: -1;
 }
 .Titulo {
+    
     color: wheat;
     font-family: cursive;
     margin-top: -5px;
     display: inline-block;
 }
+
 .Titulo:hover {
     color: rgba(122, 60, 16, 0.836);
     font-size: 40px;
@@ -40,16 +42,18 @@ a {
     gap: 20px;
     font-family: cursive;
     text-decoration: none;
+    
 }
 a:hover {
      color: rgba(122, 60, 16, 0.836);
     font-size: 20px;
     font-family: cursive;
+    transition: color 1s ease;
     
 }
 
 .partemarron {
-   margin-top: 550px;
+   margin-top: 350px;
 }
 p {
     font-family: cursive;
@@ -78,3 +82,8 @@ footer {
     color: wheat;
 }
 
+nav {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
