@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.linea-arriba {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 15px;
+}
+
+.linea-arriba::after {
+  content: ".............................................................";
+  white-space: nowrap;
+  overflow: hidden;
+  color: #6f4e37;
+  order: 2;
+  flex-grow: 1;
+  opacity: 0.5;
+}
+
+.linea-arriba span:first-child {
+  order: 1;
+}
+.linea-arriba span:last-child {
+  order: 3;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+.nav-menu {
+  background-color: #6f4e37;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-menu ul {
+  max-width: 600px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu a {
+  text-align: center;
+  text-decoration: none;
+  color: #fff8f0;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: #ff9a53;
+}
+
+.item p {
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: #3d2310;
+}
+
+.main-menu {
+  background-color: #fff1cb;
+  width: 90%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
+
+#cafes {
+  width: 100%;
+  padding: 40px 0px;
+  border-bottom: 1px solid;
+  color: #6f4e37;
+}
+
+#bebidasfrias {
+  width: 100%;
+  padding: 40px 0px;
+  border-bottom: 1px solid;
+  color: #6f4e37;
+}
+
+#dulce {
+  width: 100%;
+  padding: 40px 0px;
+  border-bottom: 1px solid;
+  color: #6f4e37;
+}
+
+#salado {
+  width: 100%;
+  padding: 40px 0px;
+  border-bottom: 1px solid;
+  color: #6f4e37;
+}
+
+.menuh1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: #2c1b18;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.menuh2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #6f4e37;
+}
+
+.pagina-menu {
+  background-color: #b49d5c;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-menu a {
+  transition: color 0.3s ease;
+}
+
+.footermenu {
+  background-color: #1a0f0d;
+  color: #ffffff;
+  padding: 40px 0;
+  width: 100%;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 50px;
+  border-top: 3px solid #2c1b18;
+}
+
+.galeria-fotos {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #6f4e37;
+}
