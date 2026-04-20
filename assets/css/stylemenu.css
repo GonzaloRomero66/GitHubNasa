@@ -109,4 +109,10 @@ font-family: 'Courier New', Courier, monospace;
 margin-top: 50px;
 border-top: 3px solid #2C1B18;}
 
+main img{max-width: 100%;
+height: auto;
+display: block;
+margin: 20px auto;
+border: 2px solid #6f4e37;}
+
 
