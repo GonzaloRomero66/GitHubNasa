@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.linea-arriba{margin-left: auto; margin-right: auto;
+display: flex; justify-content:space-between;
+align-items: baseline; margin-bottom: 15px;}
+
+.item p{margin-top: 5px;
+font-size: 0.9em;}
+
+
+
+.nav-menu a {transition: color 0.3s ease;}
+
