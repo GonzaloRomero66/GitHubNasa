@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="assets/css/contacto.css" />
   </head>
   <body>
@@ -16,23 +16,43 @@
     </header>
 
     <main>
-      <h2>Información del local</h2>
-      <ul>
-        <li>Ubicación: RN81, Formosa</li>
-
-        <li>Horarios de atención</li>
-        <ul>
-          <li>Lunes a Miércoles: 8:00 am - 20:00 pm</li>
-          <li>Jueves a Viernes: 9:00 am - 19:00 pm</li>
-        </ul>
-        <li>Télefonos de contacto</li>
-        <ul>
-          <li><a href="tel:+54 9 3716 45-9464 ">+54 9 3716 45-9464</a></li>
-          <li><a href="tel:+54 9 3704 90-2029">+54 9 3704 90-2029</a></li>
-          <li><a href="tel:+54 9 3718 58-1343">+54 9 3718 58-1343</a></li>
-          <li><a href="tel:+54 9 3704 03-5677">+54 9 3704 03-5677</a></li>
-        </ul>
-      </ul>
+      <h2 id="infolocal">Información del local</h2>
+      <div class="prueba">
+        <div class="cartita">
+          <ul>
+            <li>Ubicación: RN81, Formosa</li>
+            <!-- <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2232.073206603031!2d-58.27679932752036!3d-26.079954422644064!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945cb1005b21b355%3A0x36a052477a923c03!2sInstituto%20Polit%C3%A9cnico%20Formosa!5e0!3m2!1ses-419!2sar!4v1776432464463!5m2!1ses-419!2sar"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe> -->
+          </ul>
+        </div>
+        <div class="cartita">
+          <ul>
+            <li>Horarios de atención</li>
+            <ul>
+              <li>Lunes a Miércoles: 8:00 am - 20:00 pm</li>
+              <li>Jueves a Viernes: 9:00 am - 19:00 pm</li>
+            </ul>
+          </ul>
+        </div>
+        <div class="cartita">
+          <ul>
+            <li>Télefonos de contacto</li>
+            <ul>
+              <li><a href="tel:+54 9 3716 45-9464 ">+54 9 3716 45-9464</a></li>
+              <li><a href="tel:+54 9 3704 90-2029">+54 9 3704 90-2029</a></li>
+              <li><a href="tel:+54 9 3718 58-1343">+54 9 3718 58-1343</a></li>
+              <li><a href="tel:+54 9 3704 03-5677">+54 9 3704 03-5677</a></li>
+            </ul>
+          </ul>
+        </div>
+      </div>
 
       <!-- <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2232.073206603031!2d-58.27679932752036!3d-26.079954422644064!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945cb1005b21b355%3A0x36a052477a923c03!2sInstituto%20Polit%C3%A9cnico%20Formosa!5e0!3m2!1ses-419!2sar!4v1776432464463!5m2!1ses-419!2sar"
@@ -57,16 +77,16 @@
           <option value="frappe">Frappé</option>
         </select>
 
-        <input type="number" />
+        <input type="number" min="1" max="20" />
 
         <h4>Para acompañar</h4>
-        <select name="comidas" id="comi">
+        <select name="comidas" id="comidaas">
           <option value="nadota"></option>
           <option value="croissant">Croissant</option>
           <option value="medialuna">Medialunas</option>
           <option value="chipitas">Chipitas</option>
         </select>
-        <input type="number" />
+        <input type="number" min="1" max="50" />
       </form>
     </main>
 

@@ -1,0 +1,20 @@
+#infolocal {
+    text-align: center;
+}
+
+.prueba {
+  display: flex;
+justify-content: center;
+gap: 90px;
+flex-wrap: wrap;
+}
+
+.cartita {
+    background-color: beige;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    max-width: auto;
+    text-align: center;
+    
+}
