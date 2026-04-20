@@ -14,7 +14,6 @@ flex-wrap: wrap;
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 0 5px;
-    max-width: auto;
     text-align: center;
     flex: 1;
     min-width: 250px;
@@ -24,4 +23,47 @@ flex-wrap: wrap;
 
 .cartita:hover {
     transform: translateY(-5px);
+}
+
+footer {
+    text-align: center;
+}
+
+.padre-cafes-comida {
+    display: flex;
+gap: 20px;
+}
+
+.cafes, .comidas {
+    background-color: beige;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+    
+}
+
+.prueba-img {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    width: 150px;
+    border-radius: 10px;
+    height: 200px;
+    flex-shrink: 0;
+   padding-left: 450px;
+
+}
+
+.comida-img {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    width: 150px;
+    border-radius: 10px;
+    height: 200px;
+    flex-shrink: 0;
+   padding-left: 450px;
 }
